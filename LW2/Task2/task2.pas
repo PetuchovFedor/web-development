@@ -1,31 +1,30 @@
 ﻿PROGRAM SarahRevere(INPUT, OUTPUT);
-USES DOS;
+USES 
+  DOS;
 VAR
-  Qstr, Par, OutS: STRING;
+  QStr, Str, OutStr: STRING;
   I: INTEGER;
-BEGIN {SarahRevere}
-  // http://localhost:4001/cgi-bin/task3(2).cgi/?lanterns=1&last_name=Pov
-  // lanterns=1&last_name=Pov
+BEGIN
+  //http://localhost:4001/cgi-bin/task2.cgi/?lanterns=1
   WRITELN('Content-Type: text/plain');
   WRITELN;
   I := 1;
-  OutS := '';
-  Qstr := GetEnv('QUERY_STRING');
-  Par := copy(Qstr, pos('lanterns=', Qstr) + length('lanterns='), length(Qstr) - length('lanterns=') + 1);
-  WHILE (Par[i] <> '&') AND (i < length(Par))
+  QStr := GetEnv('QUERY_STRING');
+  Str := COPY(QStr, POS('lanterns=', QStr) + LENGTH('lanterns='), LENGTH(QStr) - LENGTH('lanterns=') + 1);
+  WHILE (Str[i] <> '&') AND (I < LENGTH(Str))
   DO
     BEGIN
-      OutS := OutS + Par[i];
-      INC(i)
+      OutStr := OutStr + Str[I];
+      INC(I)
     END;
-  IF Par[i] <> '&' 
-  THEN    
-    OutS := OutS + Par[i];  
-  IF OutS = '1'
+  IF Str[I] <> '&'
+  THEN
+    OutStr := OutStr + Str[I];
+  IF OutStr = '1'
   THEN
     WRITELN('The British are coming by land.')
   ELSE
-    IF OutS = '2'
+    IF OutStr = '2'
     THEN
       WRITELN('The British coming by sea.')
     ELSE
