@@ -55,6 +55,5 @@ if ($Password !== null)
             $Rel = $Rel -$val;
         }
     }
-    echo "The reliability of your password $reliability";
     echo $Rel;
 }
