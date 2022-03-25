@@ -1,12 +1,15 @@
 <?php
 
-function getGetParameter($name): string
+function getGetParameter($name): ?string
 {
-    return isset($_GET[$name]) ? $_GET["$name"] : null;
+    return isset($_GET[$name]) ? $_GET[$name] : null;
 }
 
-
 $Password = getGetParameter('password');
+if (!$Password)
+{
+    return;
+}
 $Rel = 0;
 $Len =strlen($Password);
 $n = 0;
@@ -31,7 +34,7 @@ if ($Password !== null)
     }
     $Rel = $Rel + 2*($Len-$n);
     $n = 0;
-    for ($i=0; $i <= $Len; $i++)
+    for ($i = 0; $i <= $Len; $i++)
     {
         if (ctype_lower($Password[$i]))
         {
@@ -55,5 +58,6 @@ if ($Password !== null)
             $Rel = $Rel -$val;
         }
     }
+    header("Content-Type: text/plain");
     echo $Rel;
 }
