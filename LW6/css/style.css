@@ -2,9 +2,8 @@
 {   
     position: absolute;
     width: 1680px;
-    height: 55px;
-    left: 120px;
-    top: 30px;
+    left: 121px;
+    top: 31px;
 }
 
 .header__menu
@@ -15,20 +14,17 @@
     position: absolute;
     width: 469px;
     height: 20px;
-    left: 866px;
+    left: 865px;
     top: 16px;
 }
 
 .menu__link
 {
     position: static;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font: normal 500 16px/20px 'Montserrat';
     flex: none;
     flex-grow: 0;
-    margin-right: 87px;
+    margin-right: 86.55px;
 }
 
 .header__button
@@ -39,12 +35,9 @@
     border-radius: 4.6px;
     background-color: #05090C;
     color: #fff;
-    font-style: normal;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
+    font: normal 600 16px/16px 'Montserrat';
     left: 1433px;
-    top: -2px;
+    top: -3px;
 }
 .main
 {
@@ -53,15 +46,11 @@
     height: 732px;
     left: 178px;
     top: 240px;
-    
 }
 
 .main__header
-{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100px;
+{ 
+    font: normal 600 100px 'Montserrat';
     margin-bottom: 0px;
 }
 
@@ -72,10 +61,7 @@
     border-radius: 4.6px;
     background-color: #05090C;
     color: #fff;
-    font-style: normal;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
+    font: normal 600 16px 'Montserrat';
     position: absolute;
     width: 332px;
     height: 55px;
@@ -100,10 +86,7 @@
     margin-top: 20px;
     width: 545px;
     height: 62px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
+    font: normal 400 26px 'Roboto Condensed';
     color: #4c4c4c;
 }
 
@@ -130,8 +113,8 @@
     position: absolute;
     width: 285px;
     height: 145px;
-    left: 0px;
-    top: 4px;
+    left: 1px;
+    top: 5px;
 }
 
 .column__position_middle
@@ -158,11 +141,8 @@
     width: 303px;
     height: 52px;
     left: -9px;
-    top: 55px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
+    top: 54px;
+    font: normal 400 22px/26px 'Roboto Condensed';
     color: #fff;
     text-align: center;
 }
@@ -174,10 +154,7 @@
     height: 52px;
     left: -19px;
     top: 59px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
+    font: normal 400 22px/26px 'Roboto Condensed';
     color: #fff;
     text-align: center;   
 }
@@ -188,17 +165,15 @@
     width: 336.95px;
     height: 52px;
     left: -22px;
-    top: 58px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
+    top: 59px;
+    font: normal 400 22px/26px 'Roboto Condensed';
     color: #fff;
     text-align: center; 
 }
 .column__image
 {    
-    margin-left: 117px;
+    position: absolute;
+    left: 118px;
 }
 
 .absense-time
@@ -230,10 +205,7 @@
 {
     position: absolute;
     top: 1px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
+    font: normal 500 48px 'Montserrat';
     color:#000;
 }
 
@@ -244,11 +216,7 @@
     left: 1px;
     width: 574px;
     height: 48px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 135%;
+    font: normal 400 18px/24px 'Roboto Condensed';
     color: #4c4c4c;
 }
 
@@ -282,24 +250,18 @@
     position: absolute;
     top: 1px;
     left: 1px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
+    font: normal 500 48px 'Montserrat';
     color:#000;
 }
 
 .deadline-info__subtitle
 {
     position: absolute;
-    top: 110px;
+    top: 109px;
     left: 1px;
     width: 574px;
     height: 48px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font: normal 400 18px/24px 'Roboto Condensed';
     color: #4c4c4c;
 }
 
@@ -319,10 +281,7 @@
     height: 59px;
     left: 320px;
     bottom: 431px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
+    font: normal 500 48px 'Montserrat';
     text-align: center;
     color: #000;
 }
@@ -377,12 +336,8 @@
     width: 269.77px;
     height: 51.5px;
     left: 39.25px;
-    top: 101.23px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    top: 84px;
+    font: normal 400 18px/21px 'Roboto Condensed';
     color: #FFF;
 }
 
@@ -414,12 +369,8 @@
     width: 269.77px;
     height: 51.5px;
     left: 39.74px;
-    top: 101.23px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    top: 83px;
+    font: normal 400 18px/21px 'Roboto Condensed';
     color: #FFFFFF;
 }
 
@@ -448,15 +399,11 @@
 .third__text
 {
     position: absolute;
-    width: 269.77px;
+    width: 240px;
     height: 51.5px;
     left: 39.22px;
-    top: 101.23px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    top: 83px;
+    font: normal 400 18px/21px 'Roboto Condensed';
     color: #FFFFFF;
 }
 
@@ -498,15 +445,11 @@
 .fourth__text
 {
     position: absolute;
-    width: 269.77px;
+    width: 260px;
     height: 51.5px;
     left: 39.25px;
-    top: 101.38px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    top: 84px;
+    font: normal 400 18px/21px 'Roboto Condensed';
     color: #FFFFFF;
 }
 
@@ -535,15 +478,11 @@
 .fifth__text
 {
     position: absolute;
-    width: 269.77px;
+    width: 210px;
     height: 51.5px;
     left: 39.74px;
-    top: 101.38px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    top: 84px;
+    font: normal 400 18px/21px 'Roboto Condensed';
     color: #FFFFFF;
 }
 
@@ -575,12 +514,8 @@
     width: 286px;
     height: 52px;
     left: 39px;
-    top: 101.38px;
-    font-family: 'Roboto Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    top: 84px;
+    font: normal 400 18px/21px 'Roboto Condensed';
     color: #FFFFFF;    
 }
 
@@ -590,6 +525,15 @@
     width: 1920px;
     height: 108px;
     left: 1px; 
-    bottom: 0px;
+    top: 3455px;
     background: #000000;
+}
+
+.footer__logotype
+{
+    position: absolute;
+    width: 167px;
+    height: 48px;
+    left: 877px;
+    top: 30px;
 }
