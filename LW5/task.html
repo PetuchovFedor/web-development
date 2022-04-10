@@ -4,70 +4,80 @@
   <meta charset="UTF-8">
   <title>Лабораторная 5</title>
   <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="header">
     <img src="images/logotype.svg" alt="logotype" />
-    <p class="header__menu ">Что будет на курсе?</p>
-    <p class="header__menu ">Вопросы</p>
-    <p class="header__menu ">Автор</p>
-    <button class="header__button">Записаться на курс</button>
+    <p class="header__link">Что будет на курсе?</p>
+    <p class="header__link">Вопросы</p>
+    <p class="header__link">Автор</p>
+    <button class="button button_short">Записаться на курс</button>
   </div>
   <div class="main">
     <h1 class="main__header">Не <span class="extra">делай</span> это</h1>
     <p class="main-header__text">Онлайн-курс для творческих людей, о том, как управлять своим временем </p>
-    <button class="main__button">Записаться на курс</button>
+    <button class="button button_long">Записаться на курс</button>
     <img src="images/Done.png" alt="done" />
-    <div class="main__row">
-      <p class="row__column">
-        <img class="column__image" src="images/Clock.svg" alt="clock" />\
-        <p class="first-column__text">Для тех, у кого слишком много идей и слишком мало времени</p>
-      </p>
-      <p class="row__column">
-        <img class="column__image" src="images/Notebook.svg" alt="notebook" />
-        <p class="second-column__text">Метод «списка не дел», который позволит успевать и реализовывать</p>
-      </p>
-      <p class="row__column">
-        <img class="column__image" src="images/target.svg" alt="target" />
-        <p class="third-column__text">Курс научит творческих людей сосредоточиваться</p>
-      </p>
-    </div>
+  </div>
+  <div class="row">
+    <p class="row__column">
+      <img class="column__image" src="images/Clock.svg" alt="clock" />
+      <p class="column__text text_short">Для тех, у кого слишком много идей и слишком мало времени</p>
+    </p> 
+    <p class="row__column">
+      <img class="column__image" src="images/Notebook.svg" alt="notebook" />
+      <p class="column__text text_long">Метод «списка не дел», который позволит успевать и реализовывать</p>
+    </p>
+    <p class="row__column">
+      <img class="column__image" src="images/target.svg" alt="target" />
+      <p class="column__text text_long">Курс научит творческих людей сосредоточиваться</p>
+    </p>
+  </div>
+  <div class="subentry">
     <img src="images/Finances.png" alt="finances" />
-    <h2 class="main__subtitle">Ты не уcпеешь</h2>
-    <p class="subtitle__text">Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. Как прибавить суткам часы, рассмотрим в нашем курсе.</p>
+    <h2 class="subentry__title title_font">Ты не уcпеешь</h2>
+    <p class="subentry__subtitle subtitle_font">Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. Как прибавить суткам часы, рассмотрим в нашем курсе.</p>
+  </div>
+  <div class="subentry">
     <img src="images/MindBlowing.png" alt="mind blowing" />
-    <h2 class="main__subtitle">Опять дедлайн</h2>
-    <p class="subtitle__text">В мире, где столько всего интересного, когда же успевать жить?</p>
-    <h2 class="potencial">На курсе ты <span class="extra">сможешь</span></h2>
-    <div class="potencial__blog">
-      <img class="blog__img" src="images/one.svg" alt="one" />
-      <p class="blog__text">Понять, что нужно делать, а что делать не стоит.</p>
-    </div>
-    <div class="potencial__blog">
-      <img class="blog__img" src="images/two.svg" alt="two" />
-      <p class="blog__text">Перестать себя искусственно ограничивать.</p>
-    </div>
-    <div class="potencial__blog">
-      <img class="blog__img" src="images/three.svg" alt="three" />
-      <p class="blog__text">Определить сильные стороны и начать использовать слабые.</p>
-    </div>
-    <div class="potencial__blog">
-      <img class="blog__img" src="images/four.svg" alt="four" />
-      <p class="four-blog__text">Научиться достигать любой цели в 3 понятных шага.</p>
-    </div>
-    <div class="potencial__blog">
-      <img class="blog__img" src="images/five.svg" alt="five" />
-      <p class="five-blog__text">Сотрудничать эффективно и с правильными людьми.</p>
-    </div>
-    <div class="potencial__blog">
-      <img class="blog__img"src="images/six.svg" alt="six" />
-      <p class="six-blog__text">Оптимизировать общение с клиентами и проведение совещаний.</p>
+    <h2 class="subentry__title title_font">Опять дедлайн</h2>
+    <p class="subentry__subtitle subtitle_font">В мире, где столько всего интересного, когда же успевать жить?</p>
+  </div>
+  <div class="course">
+    <h2 class="course__title title_font">На курсе ты <span class="extra">сможешь</span></h2>
+    <div class="course__copability">
+      <div class="first-row">
+        <div class="block">
+          <img class="block__image" src="images/one.svg" alt="one" />
+          <p class="block__text block__text_short">Понять, что нужно делать, а что делать не стоит.</p>
+        </div>
+        <div class="block">
+          <img class="block__image" src="images/two.svg" alt="two" />
+          <p class="block__text block__text_short">Перестать себя искусственно ограничивать.</p>
+        </div>
+        <div class="block">
+          <img class="block__image" src="images/three.svg" alt="one" />
+          <p class="block__text block__text_short">Определить сильные стороны и начать использовать слабые.</p>
+        </div>
+      </div>
+      <div class="second-row">
+        <div class="block">
+          <img class="block__image" src="images/four.svg" alt="four" />
+          <p class="block__text block__text_long">Научиться достигать любой цели в 3 понятных шага.</p>
+        </div>
+        <div class="block">
+          <img class="block__image" src="images/five.svg" alt="five" />
+          <p class="block__text block__text_shorter">Сотрудничать эффективно и с правильными людьми.</p>
+        </div>
+        <div class="block">
+          <img class="block__image" src="images/six.svg" alt="six" />
+          <p class="block__text block__text_longer">Оптимизировать общение с клиентами и проведение совещаний.</p>
+        </div>  
     </div>
   </div>
   <div class="footer">
-    <img src="images/footer_logotype.svg" alt="logotype" />
+    <img class="footer__logotype" src="images/footer_logotype.svg" alt="logotype" />
   </div>
 </body>
 </html>
