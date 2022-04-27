@@ -1,0 +1,3 @@
+Имя: Федя
+Email: PetuchovFedya@mail.com
+Деятельность: Программист
