@@ -2,19 +2,22 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Лабораторная 7</title>
+  <title>Лабораторная 10</title>
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <!-- <script src="../script/script.js"></script> -->
 </head>
 <body>
+  <div class="popup__background"></div>
+  <?php include 'src/form.php' ?>   
   <div class="header">
     <img class="header__logotype" src="images/logotype.svg" alt="logotype" />
     <div class="header__menu menu">
       <p class="menu__link link-about">Что будет на курсе?</p>
       <p class="menu__link link-question">Вопросы</p>
       <p class="menu__link link-author">Автор</p> 
-      <button class="header__button button">Записаться на курс</button>
+      <a href="#" class="header__button button">Записаться на курс</a>
     </div>
     <!-- <button class="header__button button">Записаться на курс</button> -->
   </div>
@@ -22,7 +25,7 @@
     <div class="main__blurb blurb">
       <h1 class="blurb__title">Не <span class="span-color">делай</span> это</h1>
       <p class="blurb__subtitle">Онлайн-курс для творческих людей, о том, как управлять своим временем </p>
-      <button class="blurb__button button">Записаться на курс</button>
+      <a href="#" class="blurb__button button">Записаться на курс</a>
     </div>
     <img class="blurb__image" src="images/Done.png" alt="done" />
   </div>
@@ -87,6 +90,7 @@
   </div>
   <div class="footer">
     <img class="footer__logotype" src="images/footer_logotype.svg" alt="logotype" />
-  </div> 
+  </div>
+  <script src="../script/script.js"></script> 
 </body>
 </html>

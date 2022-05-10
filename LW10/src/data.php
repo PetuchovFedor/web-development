@@ -1,0 +1,1 @@
+<p>Name: <?= $param['name'] ?></p>

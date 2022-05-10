@@ -13,13 +13,13 @@ if (empty($email))
 	die();
 }
 
-$file = '../data/' . $email . '.txt';
-if (file_exists($file))
+$filePath = "../data/" . strtolower($email) . ".txt";
+if (file_exists($filePath))
 {
-    $tempArray = file($file);
-    for ($i = 0; $i < count($tempArray); $i++)
+    $dataArray = file($filePath);
+    for ($i = 0; $i < count($dataArray); $i++)
     {
-        echo "<div> $tempArray[$i] </div>";
+        echo "<div> $dataArray[$i] </div>";
     }
 }
 else

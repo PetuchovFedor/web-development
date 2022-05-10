@@ -10,15 +10,15 @@
 <body>
   <div class="header">
     <img class="header__logotype" src="images/logotype.svg" alt="logotype" />
-    <div class="header__menu">
-      <p class="menu__link">Что будет на курсе?</p>
-      <p class="menu__link">Вопросы</p>
-      <p class="menu__link">Автор</p> 
+    <div class="header__menu menu">
+      <p class="menu__link link-about">Что будет на курсе?</p>
+      <p class="menu__link link-question">Вопросы</p>
+      <p class="menu__link link-author">Автор</p> 
       <button class="header__button button">Записаться на курс</button>
     </div>
     <!-- <button class="header__button button">Записаться на курс</button> -->
   </div>
-  <div class="main">
+   <div class="main">
     <div class="main__blurb blurb">
       <h1 class="blurb__title">Не <span class="span-color">делай</span> это</h1>
       <p class="blurb__subtitle">Онлайн-курс для творческих людей, о том, как управлять своим временем </p>
